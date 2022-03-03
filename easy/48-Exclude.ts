@@ -3,7 +3,7 @@
  * @Description:Exclude
  */
 
-type Exclude<T, K> = T extends K ? never : T;
+export type Exclude<T, K> = T extends K ? never : T;
 type IType1 = {
     name: string;
     age: number;
