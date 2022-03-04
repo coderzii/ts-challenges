@@ -48,3 +48,5 @@ const test: Todo = {
     y: "hey",
 };
 //test.x.a = 123;
+
+export {};
