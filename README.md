@@ -30,3 +30,7 @@
       - /medium/296 *
       - /medium/298 *
       - /medium/459 *
+      - /medium/529 
+      - /medium/531 *
+      - /medium/599 *
+      - /medium/610 *
