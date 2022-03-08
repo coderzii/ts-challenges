@@ -36,3 +36,13 @@
       - /medium/610 *
       - /medium/612 ***
       - /medium/645 ?
+      - /medium/1097 *
+      - /medium/1042 *
+      - /medium/1367 ***
+      - /medium/1978
+      - /medium/2070
+      - /medium/2257
+      - /medium/2595 #
+      - /medium/2688
+      - /medium/2757 (?可选)
+      - /medium/2759 (-? 必选)
