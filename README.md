@@ -34,3 +34,5 @@
       - /medium/531 *
       - /medium/599 *
       - /medium/610 *
+      - /medium/612 ***
+      - /medium/645 ?
