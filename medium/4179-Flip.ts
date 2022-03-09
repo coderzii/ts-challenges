@@ -1,0 +1,12 @@
+/*
+ * @Date: 2022-03-09
+ * @Description: Flip
+ */
+
+type Flip<T extends Record<PropertyKey, any>, K = keyof T> = {
+    [P in keyof T as `${T[P]}`]: P;
+};
+
+type result1 = Flip<{ a: "x"; b: "y"; c: "z" }>; // {x: 'a', y: 'b', z: 'c'}
+type result2 = Flip<{ a: 1; b: 2; c: 3 }>; // {1: 'a', 2: 'b', 3: 'c'}
+type result3 = Flip<{ a: false; b: true }>; // {false: 'a', true: 'b'}
